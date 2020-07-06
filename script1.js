@@ -11,7 +11,7 @@ while(a.includes(rand)){
   rand =Math.floor(rand1);
 }
 a.push(rand);
- RandomNumberGenerator(1, 10, 8);
+ RandomNumberGenerator(min, max, length);
   }
   return(a);
 }
